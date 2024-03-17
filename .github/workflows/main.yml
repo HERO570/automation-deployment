@@ -1,4 +1,4 @@
-name: 'Deploy to AWS CloudFormation'
+name: AWS CloudFormation "Deploy CloudFormation Stack" Action for GitHub Actions
 
 on: 
   push:
@@ -30,7 +30,7 @@ jobs:
 
       # Deploy to AWS CloudFormation
       - name: Deploy to AWS CloudFormation
-        uses: aws-actions/aws-cloudformation-github-deploy@v1
+         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: network
           template: network.yaml
