@@ -4,6 +4,7 @@ Parameters:
     EnvironmentName:
         Description: This name will be prefixed to all the resources.
         Type: String
+        Default: helloworld
     VpcCIDR:
         Description: CIDR for Udagram App VPC
         Type: String
