@@ -4,12 +4,15 @@ Parameters:
     EnvironmentName:
         Description: This name will be prefixed to all the resources.
         Type: String
+        Default: helloworld
     ServerAMIId:
         Description: AMI ID for EC2 instances.
         Type: String
+        Default: ami-02d7fd1c2af6eead0
     InstanceType:
         Description: EC2 instance type
         Type: String
+        Default: t3.micro
 
 Resources:
     ## Security Groups ##
